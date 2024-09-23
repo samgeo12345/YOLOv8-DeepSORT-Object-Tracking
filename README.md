@@ -63,6 +63,8 @@ https://drive.google.com/drive/folders/1awlzTGHBBAn_2pKCkLFADMd1EN_rJETW?usp=sha
 ```
 python predict.py model=yolov8l.pt source="test3.mp4" show=True
 ```
+python predict.py model=yolov8n.pt source="test3.mp4" device=0 show=True (faster processing of video)
+
 
 ### RESULTS
 
