@@ -154,6 +154,7 @@ def draw_boxes(img, bbox, names,object_id, identities=None, offset=(0, 0)):
         # add center to buffer
         data_deque[id].appendleft(center)
         UI_box(box, img, label=label, color=color, line_thickness=2)
+        
         # draw trail
         for i in range(1, len(data_deque[id])):
             # check if on buffer value is none
