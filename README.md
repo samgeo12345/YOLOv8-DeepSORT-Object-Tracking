@@ -73,14 +73,3 @@ python predict.py model=yolov8n.pt source="test3.mp4" imgsz=320 show=True
 ```
 
 
-### RESULTS
-
-#### Vehicles Detection, Tracking and Counting 
-![](./figure/figure1.png)
-
-#### Vehicles Detection, Tracking and Counting
-
-![](./figure/figure3.png)
-
-
-
